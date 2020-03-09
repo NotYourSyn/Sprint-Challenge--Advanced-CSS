@@ -181,6 +181,7 @@ h1 {
   align-items: center;
   font-size: 5rem;
   padding: 1%;
+  color: #23293B;
 }
 footer {
   color: #22283B;
@@ -233,6 +234,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #22283A;
+  border-radius: 0.8rem;
+  height: 4rem;
+  width: 8.5rem;
+  font-size: 1.5rem;
 }
 .home .walk .walk-img {
   width: 46%;
