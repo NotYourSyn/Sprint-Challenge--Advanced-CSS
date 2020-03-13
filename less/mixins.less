@@ -1,1 +1,16 @@
 // Mixins Here
+.flex-spacing (@justify,@align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btn-style (@textColor,@bckgrndColor,@bRadius,@bHght,@bWdth) {
+    .flex-spacing(center, center);
+    color: @textColor;
+    background-color: @bckgrndColor;
+    border-radius: @bRadius;
+    height: @bHght;
+    width: @bWdth;
+
+}
